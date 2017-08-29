@@ -1,0 +1,9 @@
+{
+    "host"                 : "211.253.8.229",
+    "port"                 : "3306",
+    "user"                 : "root",
+    "database"             : "jspbook",
+    "multipleStatements"   : "multipleQueryEnable",
+    "connectionLimit"      : "10",
+    "waitForConnections"   : "waitForConnections"
+}
