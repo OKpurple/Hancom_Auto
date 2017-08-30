@@ -18,6 +18,8 @@ var app = (0, _express2.default)();
 
 var port = 3000;
 
+app.use(_bodyParser2.default.urlencoded({ extended: true }));
+
 // 라우트 예제입니다.
 
 app.use('/api', _routes2.default);
